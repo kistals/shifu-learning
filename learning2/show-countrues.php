@@ -14,7 +14,7 @@
         $query = mysqli_query($connect, 'SELECT * FROM  `countries`');
 
         while ($result = mysqli_fetch_array($query)) {
-            echo $result['name']."<br>";
+            echo $result['name'].$result['slug'].$result['text']."<br><br>";
           }
         
         mysqli_close($connect);
