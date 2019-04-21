@@ -9,14 +9,14 @@
 <body>
     <?php
         
-        $countrys = array('Afghanistan' => 'afgha', 
-                          'Albania'=> 'alban', 
-                          'Algeria' => 'alge', 
-                          'Andorra'=>'andora',
-                          'Bahrain'=>'bahr', 
-                          'Bangladesh'=>'bengl', 
-                          'Barbados'=>'barb', 
-                          'Canada' => 'canada'
+        $countrys = array('Afghanistan', 
+                          'Albania', 
+                          'Algeria', 
+                          'Andorra',
+                          'Bahrain', 
+                          'Bangladesh', 
+                          'Barbados', 
+                          'Canada'
                         );
                         
         echo htmlspecialchars($_GET["countrys"]);
